@@ -2,12 +2,12 @@ report_generation_task:
   description: >
     This task involves generating a detailed report on the impact of AI on a specific field. The report should include an overview of the current state of AI in that field, key trends, challenges, and opportunities, as well as recommendations for addressing the challenges and capitalizing on the opportunities. The report should be saved in a structured format that can be easily shared and understood by stakeholders.
   expected_output: >
-    A detailed report on the impact of AI on a specific field, including an overview of the current state of AI in that field, key trends, challenges, and opportunities, as well as recommendations for addressing the challenges and capitalizing on the opportunities. The report should be saved in a structured format that can be easily shared and understood by stakeholders.
+    A detailed report on the impact of AI on a specific field, including an overview of the current state of AI in that field, key trends, challenges, and opportunities, as well as recommendations for addressing the challenges and capitalizing on the opportunities. The report should be saved in a structured format that can be easily shared and understood by stakeholders. The report should be in markdown format and saved to the location specified in the configuration file.
   agent: report_generator
 
 report_summarization_task:
   description: >
     This task involves summarizing the key findings and insights from data analysis and research on a specific topic into a concise and actionable report. The summary should highlight the most important trends, patterns, and implications of the data, and provide clear recommendations for stakeholders based on the findings. The summary should be saved in a structured format that can be easily shared and understood by stakeholders.
   expected_output: >
-    A concise and actionable report summarizing the key findings and insights from data analysis and research on a specific topic, highlighting the most important trends, patterns, and implications of the data, and providing clear recommendations for stakeholders based on the findings. The summary should be saved in a structured format that can be easily shared and understood by stakeholders.
+    A concise and actionable report summarizing the key findings and insights from data analysis and research on a specific topic, highlighting the most important trends, patterns, and implications of the data, and providing clear recommendations for stakeholders based on the findings. The summary should be saved in a structured format that can be easily shared and understood by stakeholders.The summary should be in markdown format and saved to the location specified in the configuration file.
   agent: report_summarizer

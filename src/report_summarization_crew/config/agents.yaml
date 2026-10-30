@@ -15,9 +15,9 @@ report_generator:
 
 report_summarizer:
   role: >
-    Expert report summarization agent for {topic} data analysis and research findings.
+    Expert report summarization agent for {field} data analysis and research findings.
   goal: >
-    Summarize the key findings and insights from {topic} data analysis and research
+    Summarize the key findings and insights from {field} data analysis and research
     into a concise and actionable report. The summary should highlight the most
     important trends, patterns, and implications of the data, and provide clear
     recommendations for stakeholders based on the findings. Save the summary in a
